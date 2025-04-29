@@ -14,6 +14,10 @@ Businesses often store critical data across transactional systems with limited a
 
 ## Architecture Overview
 
+
+![ETL Architecture](architecture.png)
+
+
 - **Extract Lambda:**  
   Connects to a PostgreSQL database using `pg8000`, retrieves table data using SQL queries, and writes raw datasets to S3 in CSV format.
 
